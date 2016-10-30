@@ -1,5 +1,9 @@
 import string
 import random
+import os
+
+import tweepy
+from dotenv import Dotenv 
 
 from first_line.beluga_sevruga import beluga_sevruga 
 from second_line.caspian_sea import caspian_sea
@@ -9,25 +13,43 @@ from fourth_line.et import et
 from fourth_line.laryngitis import laryngitis
 from fifth_line.voices import voices
 
+dotenv = Dotenv(os.path.join(os.path.dirname(__file__), ".env")) 
+os.environ.update(dotenv)
+
 # Beluga, Sevruga
 three_syllable_words = random.sample(beluga_sevruga, 2)
 three_syllable_words = [string.capwords(word) for word in three_syllable_words]
-print ", ".join(three_syllable_words)
+line_one = ", ".join(three_syllable_words) + "\n"
 
 # Come winds of the Caspian Sea
 sea = random.choice(caspian_sea)
-print "Come winds of the %s" % sea
+line_two = "Come winds of the %s\n" % sea
 
 # Larynxes, glossitis
 xes_ces = string.capwords(random.choice(larynxes))
 itis = random.choice(glossitis)
-print "%s, %s" % (xes_ces, itis)
+line_three = "%s, %s\n" % (xes_ces, itis)
 
 # Et max laryngitis
 latin = random.choice(et)
 other_itis = random.choice(laryngitis)
-print "%s, %s" % (latin, other_itis)
+line_four = "%s, %s \n" % (latin, other_itis)
 
 # La voce to me
 voice = string.capwords(random.choice(voices))
-print "%s to me" % voice
+line_five = "%s to me" % voice
+
+CONSUMER_KEY = os.environ.get("CONSUMER_KEY") 
+CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
+ACCESS_KEY = os.environ.get("ACCESS_KEY")
+ACCESS_SECRET = os.environ.get("ACCESS_SECRET")
+
+auth = tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
+auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
+
+incantation = line_one + line_two + line_three + line_four + line_five
+incantation = unicode(incantation, "utf-8")
+
+api = tweepy.API(auth)
+api.update_status(incantation)
+

@@ -1,2 +1,8 @@
+dotenv==0.0.5
+oauthlib==2.0.0
+requests==2.11.1
+requests-oauthlib==0.7.0
+six==1.10.0
 textstat==0.3.1
+tweepy==3.5.0
 wheel==0.24.0
