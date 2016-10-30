@@ -13,8 +13,11 @@ from fourth_line.et import et
 from fourth_line.laryngitis import laryngitis
 from fifth_line.voices import voices
 
-dotenv = Dotenv(os.path.join(os.path.dirname(__file__), ".env")) 
-os.environ.update(dotenv)
+try:
+    dotenv = Dotenv(os.path.join(os.path.dirname(__file__), ".env")) 
+    os.environ.update(dotenv)
+except: 
+    pass
 
 # Beluga, Sevruga
 three_syllable_words = random.sample(beluga_sevruga, 2)
