@@ -39,7 +39,7 @@ other_itis = random.choice(laryngitis)
 line_four = "%s %s \n" % (latin, other_itis)
 
 # La voce to me
-voice = string.capwords(random.choice(voices))
+voice = random.choice(voices)
 line_five = "%s to me" % voice
 
 CONSUMER_KEY = os.environ.get("CONSUMER_KEY") 

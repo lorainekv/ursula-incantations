@@ -2,14 +2,14 @@
 # -*- coding: UTF-8 -*-
 
 voices = [
-"ahotsa",
+"Ahotsa",
 "Die Stimme",
-"dimits'i",
-"dzayny",
-"e le'o",
-"il-vuċi"
-"ka leo",
-"le leo",
-"na domo",
-"te reo",
+"Dimits'i",
+"Dzayny",
+"E le'o",
+"Il-vuċi",
+"Ka leo",
+"Le leo",
+"Na domo",
+"Te reo",
 ]
