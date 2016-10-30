@@ -36,7 +36,7 @@ line_three = "%s, %s\n" % (xes_ces, itis)
 # Et max laryngitis
 latin = random.choice(et)
 other_itis = random.choice(laryngitis)
-line_four = "%s, %s \n" % (latin, other_itis)
+line_four = "%s %s \n" % (latin, other_itis)
 
 # La voce to me
 voice = string.capwords(random.choice(voices))
