@@ -5,7 +5,7 @@ import os
 import tweepy
 from dotenv import Dotenv 
 
-from first_line.beluga_sevruga import beluga_sevruga 
+from first_line.filtered_beluga_sevruga import beluga_sevruga 
 from second_line.caspian_sea import caspian_sea
 from third_line.larynxes import larynxes 
 from third_line.glossitis import glossitis 
