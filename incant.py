@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 from first_line.corpus import beluga_sevruga
 from second_line.corpus import caspian_sea
-from third_line.larynxes import larynxes 
-from third_line.glossitis import glossitis 
+from third_line.corpus_one import larynxes
+from third_line.corpus_two import glossitis
 from fourth_line.et import et
 from fourth_line.laryngitis import laryngitis
 from fifth_line.voices import voices
