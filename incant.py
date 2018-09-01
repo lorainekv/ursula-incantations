@@ -50,7 +50,6 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
 
 incantation = line_one + line_two + line_three + line_four + line_five
-incantation = unicode(incantation, "utf-8")
 
 api = tweepy.API(auth)
 api.update_status(incantation)
