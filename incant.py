@@ -3,7 +3,7 @@ import random
 import os
 
 import tweepy
-from dotenv import Dotenv 
+from dotenv import load_dotenv
 
 from first_line.filtered_beluga_sevruga import beluga_sevruga 
 from second_line.caspian_sea import caspian_sea
@@ -14,8 +14,7 @@ from fourth_line.laryngitis import laryngitis
 from fifth_line.voices import voices
 
 try:
-    dotenv = Dotenv(os.path.join(os.path.dirname(__file__), ".env")) 
-    os.environ.update(dotenv)
+    load_dotenv()
 except: 
     pass
 
