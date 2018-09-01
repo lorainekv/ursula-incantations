@@ -1,5 +1,11 @@
-URSULA THE SEA BOT
+# Ursula the Sea Bot
+A bot that riffs off Ursula's incantation in "Poor Unfortunate Souls"
 [@seawitchspells](https://twitter.com/seawitchspells)
+
+Many word substitutions selected with @aparrish's [pronouncing](https://github.com/aparrish/pronouncingpy) library using:
+  - syllable stress searches
+  - syllable counting
+  - phoneme searches
 
 # Original Verses
 
@@ -8,14 +14,14 @@ Come winds of the Caspian Sea
 Larynxes, glossitis  
 Et Max Laryngitis  
 La voce to me  
-*From "Poor Unfortunate Souls" in The Little Mermaid*
+*- "Poor Unfortunate Souls" in The Little Mermaid*
 
 Mascara, tiara  
 Yea, winds of the tropics appear  
 Catharsis, lavorious  
 Et qua manicurus  
 mutato me here!  
-*From a "Poor Unfortunate Souls" Broadway show reprise draft*
+*- from a "Poor Unfortunate Souls" Broadway show reprise draft*
 
 ---
 
