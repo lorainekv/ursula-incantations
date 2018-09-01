@@ -6,8 +6,9 @@ from second_line import word_generator as second_line
 
 first_line_words = first_line.find_words()
 filtered_first_line_words = language_filter.filter_words(first_line_words)
-with open("./first_line/corpus.py", "a+") as first_line_corpus:
-    first_line_corpus.write("beluga_sevruga={}".format(filtered_first_line_words))
+with open("./first_line/corpus.py", "w") as first_line_corpus:
+    first_line_corpus.write("beluga_sevruga=")
+    first_line_corpus.write(pp.pformat(filtered_first_line_words))
 
 second_line_words = second_line.summon_seas()
 filtered_second_line_words = language_filter.filter_words(second_line_words)
