@@ -1,7 +1,10 @@
 certifi==2018.8.24
 chardet==3.0.4
+cmudict==0.4.1
 idna==2.7
 oauthlib==2.1.0
+profanity==1.1
+pronouncing==0.2.0
 Pyphen==0.9.5
 PySocks==1.6.8
 python-dotenv==0.9.1
