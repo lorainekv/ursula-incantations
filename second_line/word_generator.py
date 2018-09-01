@@ -4,7 +4,7 @@ import string
 """ 
 Substitutes for "Caspian" in "Caspian Sea":
     - Three syllables
-    - Has the 100 syllable stress pattern
+    - Has a `˘˘ syllable stress pattern
 """
 
 def summon_seas():

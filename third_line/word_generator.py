@@ -5,7 +5,7 @@ import string
 Substitutes for "Larynxes":
     - Three syllables
     - Ends with "S IH0 Z" or "S IH0 S" sound (ARPAbet notation), such as "morasses" or "Alexis"
-    - Has the 120, 220, 110, or 210 syllable stress patterns
+    - Has a ``˘ syllable stress pattern
 """
 
 def steal_voices():

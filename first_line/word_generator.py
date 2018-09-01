@@ -3,7 +3,7 @@ import pronouncing as pr
 """ 
 Substitutes for "Beluga, sevruga":
     - Three syllables
-    - Contains the 010 stress pattern
+    - Has a ˘`˘ syllable stress pattern
     - Ends with AH0 (ARPAbet phonetic notation)
 """
 
