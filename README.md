@@ -32,7 +32,7 @@ Substitutes for "Caspian" in "Caspian Sea":
   - Three syllables
   - Has a `˘˘ syllable stress pattern
 
-# Third line: 
+## Third line:
 Substitutes for "Larynxes":
     - Three syllables
     - Ends with "S IH0 Z" or "S IH0 S" sound (ARPAbet notation), such as "morasses" or "Alexis"
