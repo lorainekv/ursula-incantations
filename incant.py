@@ -6,7 +6,7 @@ import tweepy
 from dotenv import load_dotenv
 
 from first_line.corpus import beluga_sevruga
-from second_line.caspian_sea import caspian_sea
+from second_line.corpus import caspian_sea
 from third_line.larynxes import larynxes 
 from third_line.glossitis import glossitis 
 from fourth_line.et import et
