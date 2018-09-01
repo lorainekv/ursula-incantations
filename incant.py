@@ -10,7 +10,7 @@ from second_line.corpus import caspian_sea
 from third_line.corpus_one import larynxes
 from third_line.corpus_two import glossitis
 from fourth_line.et import et
-from fourth_line.laryngitis import laryngitis
+from fourth_line.corpus import laryngitis
 from fifth_line.voices import voices
 
 try:
