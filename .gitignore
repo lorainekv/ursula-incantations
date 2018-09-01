@@ -3,7 +3,6 @@ seawitchspells
 __pycache__/
 *.py[cod]
 *$py.class
-language_filter.py
 offensive_filter.txt
 
 # C extensions
