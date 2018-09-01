@@ -1,22 +1,52 @@
-URSULA THE SEA BOT
+# Ursula the Sea Bot
+A bot that riffs off Ursula's incantation in "Poor Unfortunate Souls"
 [@seawitchspells](https://twitter.com/seawitchspells)
 
+Many word substitutions selected with @aparrish's [pronouncing](https://github.com/aparrish/pronouncingpy) library using:
+  - syllable stress searches
+  - syllable counting
+  - phoneme searches
 
-Beluga, Sevruga
-Come winds of the Caspian Sea
-Larynxes, glossitis
-Et Max Laryngitis
-La voce to me
+# Original Verses
 
-Mascara, tiara
-Yea, winds of the tropics appear
-Catharsis, lavorious
-Et qua manicurus
-mutato me here!
+Beluga, Sevruga  
+Come winds of the Caspian Sea  
+Larynxes, glossitis  
+Et Max Laryngitis  
+La voce to me  
+*- "Poor Unfortunate Souls" in The Little Mermaid*
+
+Mascara, tiara  
+Yea, winds of the tropics appear  
+Catharsis, lavorious  
+Et qua manicurus  
+mutato me here!  
+*- from a "Poor Unfortunate Souls" Broadway show reprise draft*
 
 ---
 
-Incantation Formula
+# V2 Incantation Formula Updates
+
+## First line:
+Substitutes for "Beluga, sevruga":
+  - Three syllables
+  - Has a ˘`˘ syllable stress pattern
+  - Ends with AH0 (ARPAbet phonetic notation)
+
+## Second line: 
+Substitutes for "Caspian" in "Caspian Sea":
+  - Three syllables
+  - Has a `˘˘ syllable stress pattern
+
+## Third line:
+Substitutes for "Larynxes":
+    - Three syllables
+    - Ends with "S IH0 Z" or "S IH0 S" sound (ARPAbet notation), such as "morasses" or "Alexis"
+    - Has a ``˘ syllable stress pattern
+
+---
+
+# V1 Incantation Formula
 
 First line:
 - Two three-syllable words
