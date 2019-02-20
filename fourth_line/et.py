@@ -1,4 +1,1 @@
-et = [
-"Et qua",
-"Et max",
-]
+et = ["Et qua", "Et max"]

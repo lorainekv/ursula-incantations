@@ -15,7 +15,7 @@ from fifth_line.voices import voices
 
 try:
     load_dotenv()
-except: 
+except:
     pass
 
 # Beluga, Sevruga
@@ -41,16 +41,16 @@ line_four = "%s %s \n" % (latin, other_itis)
 voice = random.choice(voices)
 line_five = "%s to me" % voice
 
-CONSUMER_KEY = os.environ.get("CONSUMER_KEY") 
+CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
 CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
 ACCESS_KEY = os.environ.get("ACCESS_KEY")
 ACCESS_SECRET = os.environ.get("ACCESS_SECRET")
 
-auth = tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
-auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 
 incantation = line_one + line_two + line_three + line_four + line_five
 
 api = tweepy.API(auth)
-api.update_status(incantation)
-
+print(incantation)
+#api.update_status(incantation)
